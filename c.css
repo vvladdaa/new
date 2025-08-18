@@ -1,0 +1,46 @@
+body {
+    background: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+.list-container {
+    background: #e08b97;
+    max-width: 500px;
+    margin: 32px auto;
+    padding: 18px;
+}
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin-bottom: 16px;
+    font-size: 1.2rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background: #d16a7b;
+    position: relative;
+    padding-left: 10px;
+}
+li:last-child {
+    margin-bottom: 0;
+}
+.num {
+    color: #fff;
+    font-weight: 500;
+    margin-right: 8px;
+    min-width: 32px;
+    text-align: right;
+    display: inline-block;
+}
+.fruit {
+    background: #a03c4b;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 24px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+}
