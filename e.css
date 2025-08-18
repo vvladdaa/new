@@ -1,0 +1,75 @@
+body {
+    background: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.def-container {
+    background: #f7f7f7;
+    max-width: 700px;
+    margin: 32px auto;
+    padding: 32px 32px 24px 32px;
+}
+h1 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+}
+.phonetic {
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 18px;
+}
+.section {
+    margin-bottom: 24px;
+}
+.part-of-speech {
+    font-style: italic;
+    color: #444;
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+}
+ol {
+    margin: 0 0 0 24px;
+    padding: 0;
+}
+li {
+    margin-bottom: 18px;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+.def-text {
+    font-size: 1rem;
+    color: #222;
+}
+.example {
+    color: #444;
+    font-size: 0.98rem;
+    margin-left: 18px;
+    margin-top: 2px;
+    font-style: italic;
+}
+.quote {
+    color: #888;
+}
+.synonyms {
+    color: #444;
+    font-size: 0.98rem;
+    margin-left: 18px;
+    margin-top: 2px;
+}
+.syn-list a {
+    color: #3a6fc1;
+    text-decoration: none;
+    font-size: 0.98rem;
+}
+.syn-list a:hover {
+    text-decoration: underline;
+}
+.bold {
+    font-weight: bold;
+}
+.highlight {
+    font-weight: bold;
+}
